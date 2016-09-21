@@ -1,0 +1,7 @@
+install idba : https://github.com/loneknightpy/idba
+
+cat > .bashrc
+export PATH="/home/mada/workspace/idba/bin:$PATH"
+
+generate kmer distribution jellyfish 
+plot data xmgrace 
